@@ -1,14 +1,18 @@
-*{
+*{  
+    font-family: "Roboto", sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+
 header{
     min-height: 10rem;
-    background-color: aquamarine;
+    background-color: #255EE9;
 }
 /****************** navbar ********************/
+
+
 .boxid{
     padding: 1rem;
     display: flex;
@@ -17,70 +21,182 @@ header{
 }
 
 .nav{
-    background-color: yellow;
-    border: 2px dashed black;
+    font-size: 20px;
     padding: 1rem;
 }
 
 .left , .right{
-width: 20%;
+    width: 20%;
+}
+.right{
+    text-align: right;
+}
+
+.right>a{
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 10px 15px 10px 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 .mid{
+    text-align: center;
     width:60%;
+}
+
+.mid>a{
+    padding: 0 1rem 0 1rem;
 }
 
 /************ jumbotron ***************/
 
 .jumbotron{
-    background-color: blue;
-    min-height: 10rem;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    text-align: center;
+    /* background-color: blue; */
     padding: 1rem;
 }
 
 .jumbotron div{
     padding: 1rem;
     width: 60%;
-    background-color: pink;
     margin: 0 auto;
     height: 20rem;
-    border: 2px dashed black;
+    min-height: 17.5cm;
+}
+
+.jumbotron h1{
+    margin-top: 9rem;
+    line-height: 9rem;
+    font-size: 4rem;
+    font-weight: 500;
+    color: white;
+}
+
+.jumbotron span{
+    color: white;
+    line-height: 2.4rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.browse{
+ background-color: #23272A;
+ color: white;
+}
+.scarica{
+    color:black;
+}
+.jumbotron input{
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 10px 15px 10px 15px;
 }
 
 /************** corpo della pagina **************/
 
 .white{
-    padding: 1rem;
+    padding: 10rem 0 10rem 0;
 }
 .grey{
-    padding: 1rem;
-    background-color: lightgrey;
+    padding: 10rem 0 10rem 0;
+    background-color: rgb(230, 230, 230);
 }
 
-.white div{
-    /* background-color: brown; */
+.r{
+    flex-direction: row-reverse;
 }
 
 .blu{
+    /* background-color: rgb(16, 158, 177);
+    border: 2px dashed black; */
+    /* canc */
+    text-align: center;
     min-height: 24rem;
-    width: 70%;
-    padding: 1rem;
-    background-color: rgb(16, 158, 177);
-    border: 2px dashed black
+    width: 60%;
+    padding: 0;
+    /* padding: 0.6rem; */
 }
 
 .pink{
+    /* background-color: pink;
+    border: 2px dashed black; */
+    /* canc */
     min-height: 24rem;
-    width: 30%;
-    padding: 1rem;
-    background-color: pink;
-    border: 2px dashed black
+    width: 40%;
+    padding: 1.5rem;
+}
+
+.pink h1, .green h1{
+    font-size: 4.4rem;
+    line-height: 1;
+    padding-bottom: 40px;
+}
+
+.pink span, .green span{
+    font-size: 27px;
 }
 
 .green{
-    background-color: green;
-    height: 50rem;
-    border: 2px dashed black
+    padding: 4rem;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 50rem;
+    /* background-color: green; */
+    /* border: 2px dashed black */
+}
+
+.froggo{
+    width: 100%;
+}
+
+
+.ready{
+    width: 50%;
+    height: 70px;
+    margin: 0 auto;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 38px;
+    font-weight: 700;
+    padding: 15px;
+    padding-top: 40px;
+}
+
+.green input{
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 10px 15px 10px 15px;
+}
+
+.scaricuz{
+    margin-top: 60px;
+}
+
+.scaricuz input{
+    background-color: #7289DA;
+    color: white;
 }
 
 /********* footer in 2 pezzi *********/
@@ -89,43 +205,76 @@ footer{
     background-color: rgb(83, 83, 83);
 }
 
-.sx{
-    background-color: pink;
-    width: 35%;
-    padding: 1rem;
-    border: 2px dashed black;
-    min-height: 35rem;
-}
-
 .coltainer{
     margin-bottom: 1rem;
     border-bottom: 2px solid grey;
 }
 
+.sx{
+    /* background-color: pink;
+    border: 2px dashed black; */
+    /* canc; */
+    width: 30%;
+    padding: 1rem;
+    min-height: 35rem;
+}
+
+.sx h1{
+    color: #6B84D7;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.ita{
+    width: 1.6rem;
+}
+.sx span{
+    color: white;
+    vertical-align: 3px;
+}
+
 .dx{
+    /* background-color: aqua; */
+    /* border: 2px dashed black; */
+    padding: 1rem;
     display: flex;
-    background-color: aqua;
-    width: 65%;
-    border: 2px dashed black;
+    width: 70%;
     min-height: 35rem;
 }
 
 .dx div{
+    /* border: 2px dashed white; */
     width: 25%;
     height: 100%;
-    border: 2px dashed white;
 }
+
+.dx .first{
+    color: #6B84D7;
+}
+
+.dx p{
+    color: white;
+    font-weight: 500;
+    line-height: 50px;
+    font-size: 21px;
+}
+
 
 .last{
     margin-top: 2rem;
     padding: 1rem 0 1rem 0;
     justify-content: space-between;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
-.last div{
-    background-color: brown;
-    padding: 0.5rem;
-    border:2px dashed black;
 
+.reg{
+    color: white;
+    background-color: #6B84D7;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 10px 15px 10px 15px;
 }
