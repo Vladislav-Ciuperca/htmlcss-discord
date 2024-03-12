@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    min-height: 10rem;
+    background-color: aquamarine;
+}
+/****************** navbar ********************/
+.boxid{
+    padding: 1rem;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav{
+    background-color: yellow;
+    border: 2px dashed black;
+    padding: 1rem;
+}
+
+.left , .right{
+width: 20%;
+}
+
+.mid{
+    width:60%;
+}
+
+/************ jumbotron ***************/
+
+.jumbotron{
+    background-color: blue;
+    min-height: 10rem;
+    padding: 1rem;
+}
+
+.jumbotron div{
+    padding: 1rem;
+    width: 60%;
+    background-color: pink;
+    margin: 0 auto;
+    height: 20rem;
+    border: 2px dashed black;
+}
+
+/************** corpo della pagina **************/
+
+.white{
+    padding: 1rem;
+}
+.grey{
+    padding: 1rem;
+    background-color: lightgrey;
+}
+
+.white div{
+    /* background-color: brown; */
+}
+
+.blu{
+    min-height: 24rem;
+    width: 70%;
+    padding: 1rem;
+    background-color: rgb(16, 158, 177);
+    border: 2px dashed black
+}
+
+.pink{
+    min-height: 24rem;
+    width: 30%;
+    padding: 1rem;
+    background-color: pink;
+    border: 2px dashed black
+}
+
+.green{
+    background-color: green;
+    height: 50rem;
+    border: 2px dashed black
+}
+
+/********* footer in 2 pezzi *********/
+
+footer{
+    background-color: rgb(83, 83, 83);
+}
+
+.sx{
+    background-color: pink;
+    width: 35%;
+    padding: 1rem;
+    border: 2px dashed black;
+    min-height: 35rem;
+}
+
+.coltainer{
+    margin-bottom: 1rem;
+    border-bottom: 2px solid grey;
+}
+
+.dx{
+    display: flex;
+    background-color: aqua;
+    width: 65%;
+    border: 2px dashed black;
+    min-height: 35rem;
+}
+
+.dx div{
+    width: 25%;
+    height: 100%;
+    border: 2px dashed white;
+}
+
+.last{
+    margin-top: 2rem;
+    padding: 1rem 0 1rem 0;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.last div{
+    background-color: brown;
+    padding: 0.5rem;
+    border:2px dashed black;
+
+}
