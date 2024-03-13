@@ -111,11 +111,11 @@ a{
 /************** corpo della pagina **************/
 
 .white{
-    padding: 10rem 0 10rem 0;
+    padding: 5rem 0 5rem 0;
 }
 .grey{
-    padding: 10rem 0 10rem 0;
     background-color: rgb(230, 230, 230);
+    padding: 5rem 0 5rem 0;
 }
 
 .r{
@@ -251,12 +251,14 @@ footer{
     color: #6B84D7;
 }
 
-.dx p{
-    color: white;
+.dx a{
+    display: block;
     font-weight: 500;
     line-height: 50px;
     font-size: 21px;
 }
+
+
 
 
 .last{
@@ -277,4 +279,15 @@ footer{
     border-radius: 20px;
     margin: 15px;
     padding: 10px 15px 10px 15px;
+}
+
+.onda{
+    width: 100%;
+    background-image:url(../img/wave.svg);
+    height: 4cm;
+    opacity: 0.1;
+}
+
+.rot{
+    transform: rotate(180deg);
 }
