@@ -10,8 +10,8 @@ header{
     min-height: 10rem;
     background-color: #255EE9;
 }
-/****************** navbar ********************/
 
+/* general rules */
 
 .boxid{
     padding: 1rem;
@@ -19,6 +19,23 @@ header{
     width: 80%;
     margin: 0 auto;
 }
+
+.badje{
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 10px 15px 10px 15px;
+}
+
+.whitebutton{
+    background-color: white;
+    color: black;
+}
+
+/****************** navbar ********************/
 
 .nav{
     font-size: 20px;
@@ -30,18 +47,6 @@ header{
 }
 .right{
     text-align: right;
-}
-
-.right>a{
-    background-color: white;
-    color: black;
-    border: none;
-    font-weight: 400;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 20px;
-    margin: 15px;
-    padding: 10px 15px 10px 15px;
 }
 
 a{
@@ -64,7 +69,6 @@ a{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     text-align: center;
-    /* background-color: blue; */
     padding: 1rem;
 }
 
@@ -95,18 +99,6 @@ a{
  background-color: #23272A;
  color: white;
 }
-.scarica{
-    color:black;
-}
-.jumbotron input{
-    border: none;
-    font-weight: 400;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 20px;
-    margin: 15px;
-    padding: 10px 15px 10px 15px;
-}
 
 /************** corpo della pagina **************/
 
@@ -123,20 +115,13 @@ a{
 }
 
 .blu{
-    /* background-color: rgb(16, 158, 177);
-    border: 2px dashed black; */
-    /* canc */
     text-align: center;
     min-height: 24rem;
     width: 60%;
     padding: 0;
-    /* padding: 0.6rem; */
 }
 
 .pink{
-    /* background-color: pink;
-    border: 2px dashed black; */
-    /* canc */
     min-height: 24rem;
     width: 40%;
     padding: 1.5rem;
@@ -154,12 +139,7 @@ a{
 
 .green{
     padding: 4rem;
-    width: 80%;
-    margin: 0 auto;
     text-align: center;
-    min-height: 50rem;
-    /* background-color: green; */
-    /* border: 2px dashed black */
 }
 
 .froggo{
@@ -176,27 +156,14 @@ a{
     background-size: contain;
     font-size: 38px;
     font-weight: 700;
-    padding: 15px;
     padding-top: 40px;
 }
-
-.green input{
-    border: none;
-    font-weight: 400;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 20px;
-    margin: 15px;
-    padding: 10px 15px 10px 15px;
-}
-
-.scaricuz{
-    margin-top: 60px;
-}
-
-.scaricuz input{
+.viola{
     background-color: #7289DA;
     color: white;
+}
+.scaricuz input{
+    margin-top: 70px;
 }
 
 /********* footer in 2 pezzi *********/
@@ -211,9 +178,6 @@ footer{
 }
 
 .sx{
-    /* background-color: pink;
-    border: 2px dashed black; */
-    /* canc; */
     width: 30%;
     padding: 1rem;
     min-height: 35rem;
@@ -233,16 +197,10 @@ footer{
 }
 
 .dx{
-    /* background-color: aqua; */
-    /* border: 2px dashed black; */
-    padding: 1rem;
-    display: flex;
     width: 70%;
-    min-height: 35rem;
 }
 
 .dx div{
-    /* border: 2px dashed white; */
     width: 25%;
     height: 100%;
 }
@@ -258,27 +216,10 @@ footer{
     font-size: 21px;
 }
 
-
-
-
 .last{
     margin-top: 2rem;
     padding: 1rem 0 1rem 0;
     justify-content: space-between;
-    /* background-color: aquamarine; */
-}
-
-
-.reg{
-    color: white;
-    background-color: #6B84D7;
-    border: none;
-    font-weight: 400;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 20px;
-    margin: 15px;
-    padding: 10px 15px 10px 15px;
 }
 
 .onda{
